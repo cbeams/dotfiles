@@ -11,6 +11,9 @@
 .dropbox
 Dropbox
 
+# GPG Suite
+.gnupg
+
 # Java
 .oracle_jre_usage/
 
