@@ -9,3 +9,11 @@
 	ci = commit
 	lo = log --oneline
 	find = !git ls-files | egrep
+[diff]
+	noprefix = true
+	renames = true
+[rebase]
+	autosquash = true
+	autostash = true
+[rerere]
+	enabled = 1
