@@ -3,3 +3,9 @@
 	email = chris@beams.io
 [commit]
 	gpgsign = true
+[alias]
+	st = status -sb
+	co = checkout
+	ci = commit
+	lo = log --oneline
+	find = !git ls-files | egrep
