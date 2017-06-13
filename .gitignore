@@ -1,0 +1,18 @@
+# Bash
+.bash_history
+.bash_sessions/
+
+# MacOS
+.CFUserTextEncoding
+.DS_Store
+.Trash
+
+# ---
+Desktop/
+Documents/
+Downloads/
+Library/
+Movies/
+Music/
+Pictures/
+Public/
