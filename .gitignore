@@ -14,6 +14,9 @@ Dropbox
 # GPG Suite
 .gnupg
 
+# Less
+.lesshst
+
 # Java
 .oracle_jre_usage/
 
