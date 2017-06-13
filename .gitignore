@@ -7,6 +7,10 @@
 .DS_Store
 .Trash
 
+# Dropbox
+.dropbox
+Dropbox
+
 # Java
 .oracle_jre_usage/
 
