@@ -7,6 +7,10 @@
 .DS_Store
 .Trash
 
+# Vim
+.viminfo
+*.swp
+
 # ---
 Desktop/
 Documents/
