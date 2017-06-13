@@ -7,6 +7,9 @@
 .DS_Store
 .Trash
 
+# Java
+.oracle_jre_usage/
+
 # Vim
 .viminfo
 *.swp
