@@ -14,6 +14,9 @@ Dropbox
 # GPG Suite
 .gnupg
 
+# Httpie
+.httpie
+
 # Less
 .lesshst
 
@@ -21,10 +24,12 @@ Dropbox
 .oracle_jre_usage/
 
 # Vim
+.vim
 .viminfo
 *.swp
 
 # ---
+Applications
 Desktop/
 Documents/
 Downloads/
