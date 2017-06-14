@@ -3,9 +3,6 @@ if [ -f /usr/local/etc/bash_completion ]; then
     . /usr/local/etc/bash_completion
 fi
 
-# Use Vim as default editor
-export EDITOR=/usr/bin/vim
-
 # Configure Bash prompt style
 export PS1='[0m\]\h:\w$(__git_ps1 "[\[[32m\]%s[0m\]]")
 $ '
