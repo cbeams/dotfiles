@@ -17,11 +17,17 @@ Dropbox
 # Httpie
 .httpie
 
+# Hub
+.config/hub
+
 # Less
 .lesshst
 
 # Java
 .oracle_jre_usage/
+
+# ssh
+.ssh
 
 # Vim
 .vim
