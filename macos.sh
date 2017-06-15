@@ -5,57 +5,15 @@ if test ! $(which brew); then
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
+set -x
+
 brew update
-brew tap homebrew/dupes
 
-FORMULAE=(
-    bash
-    coreutils
-    findutils
-    git
-    httpie
-    hub
-    jq
-    tree
-    vim
-    wget
-)
-
-brew install ${FORMULAE[@]}
+brew install $(cat .brew/formulae)
+brew cask install $(cat .brew/casks)
 
 brew cleanup
-
-brew install caskroom/cask/brew-cask
-
-CASKS=(
-    1password
-    backblaze
-    bettertouchtool
-    #bettersnaptool (app store only)
-    bitsquare
-    cleanmymac
-    dropbox
-    gitter
-    google-chrome
-    gpgtools
-    intellij-idea-ce
-    istat-menus
-    iterm2
-    launchbar
-    skype
-    torbrowser
-    transmission
-    vlc
-)
-
-brew cask install ${CASKS[@]}
-
-
-RUBY_GEMS=(
-    jekyll
-)
-sudo gem install ${RUBY_GEMS[@]}
-
+brew cask cleanup
 
 # Show logging at boot time
 sudo nvram boot-args="-v"

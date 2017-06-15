@@ -39,3 +39,16 @@ hi Folded term=standout ctermfg=5 ctermbg=0
 
 " See http://www.codeography.com/2010/02/20/making-vim-play-nice-with-jekylls-yaml-front-matter.html
 autocmd BufNewFile,BufRead *.md syntax match Comment /\%^---\_.\{-}---$/
+
+" Soft wrap and break on word boundaries
+set wrap
+set nolist
+set linebreak
+set breakat=\ ^I
+
+" Make movement commands work across displayed lines, not just physical lines.
+" See http://vim.wikia.com/wiki/Move_cursor_by_display_lines_when_wrapping
+nnoremap j gj
+nnoremap k gk
+vnoremap j gj
+vnoremap k gk

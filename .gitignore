@@ -1,3 +1,6 @@
+# Babel
+.babel.json
+
 # Bash
 .bash_history
 .bash_sessions/
@@ -14,6 +17,9 @@ Dropbox
 # GPG Suite
 .gnupg
 
+# Gradle
+.gradle
+
 # Httpie
 .httpie
 
@@ -22,6 +28,10 @@ Dropbox
 
 # Less
 .lesshst
+
+# Ruby
+.bundle
+.gem
 
 # Java
 .oracle_jre_usage/
@@ -34,6 +44,9 @@ Dropbox
 .viminfo
 *.swp
 
+# wget
+.wget-hsts
+
 # ---
 Applications
 Desktop
@@ -44,3 +57,4 @@ Movies
 Music
 Pictures
 Public
+Work
