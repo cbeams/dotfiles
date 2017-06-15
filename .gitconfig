@@ -17,3 +17,7 @@
 	autostash = true
 [rerere]
 	enabled = 1
+[github]
+	user = cbeams
+[ghi]
+	token = !security find-internet-password -a cbeams -s github.com -l 'ghi token' -w
