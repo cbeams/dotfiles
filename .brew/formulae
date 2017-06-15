@@ -3,6 +3,7 @@ bash-completion
 coreutils
 findutils
 gdbm
+gdub
 git
 gmp
 gradle
