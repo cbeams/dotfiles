@@ -39,7 +39,7 @@ Dropbox
 # ssh
 .ssh
 
-# Vim
+# Vim (see also .vim/.gitignore)
 .viminfo
 *.swp
 

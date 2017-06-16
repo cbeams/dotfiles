@@ -1,9 +1,9 @@
 
-[vim-pathogen]
+[bundle/vim-pathogen]
 checkout = git clone 'git://github.com/tpope/vim-pathogen.git' 'vim-pathogen'
 
-[vim-gitgutter]
+[bundle/vim-gitgutter]
 checkout = git clone 'https://github.com/airblade/vim-gitgutter' 'vim-gitgutter'
 
-[vim-markdown]
+[bundle/vim-markdown]
 checkout = git clone 'git://github.com/plasticboy/vim-markdown.git' 'vim-markdown'
