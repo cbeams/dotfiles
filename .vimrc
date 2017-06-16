@@ -1,20 +1,18 @@
+unlet! skip_defaults_vim
+source $VIMRUNTIME/defaults.vim
+
 " Bootstrap vim-pathogen plugin management
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
-
-" Turn on syntax highlighting
-syn on
 
 " Useful options. Type :help <option> for more on any of the following
 set novb
 set noerrorbells
 set bs=2
 set magic
-set ruler
 set incsearch
 set hlsearch
 set showmode
-set showcmd
 set showmatch
 set laststatus=2
 set expandtab    "}
@@ -56,5 +54,3 @@ nnoremap j gj
 nnoremap k gk
 vnoremap j gj
 vnoremap k gk
-
-autocmd FileType gitcommit setlocal textwidth=72
