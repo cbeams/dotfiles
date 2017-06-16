@@ -2,3 +2,4 @@
 bundle/vim-pathogen
 bundle/vim-gitgutter
 bundle/vim-markdown
+bundle/goyo.vim

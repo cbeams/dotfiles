@@ -7,3 +7,6 @@ checkout = git clone 'https://github.com/airblade/vim-gitgutter' 'vim-gitgutter'
 
 [bundle/vim-markdown]
 checkout = git clone 'git://github.com/plasticboy/vim-markdown.git' 'vim-markdown'
+
+[bundle/goyo.vim]
+checkout = git clone 'https://github.com/junegunn/goyo.vim' 'goyo.vim'
