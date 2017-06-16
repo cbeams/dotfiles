@@ -39,8 +39,7 @@ hi StatusLine cterm=bold ctermfg=red ctermbg=blue
 " see :help folding for info on the following
 hi Folded term=standout ctermfg=5 ctermbg=0
 
-" See http://www.codeography.com/2010/02/20/making-vim-play-nice-with-jekylls-yaml-front-matter.html
-autocmd BufNewFile,BufRead *.md syntax match Comment /\%^---\_.\{-}---$/
+let g:vim_markdown_frontmatter = 1
 
 " Soft wrap and break on word boundaries
 set wrap
