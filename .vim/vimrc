@@ -1,13 +1,10 @@
-unlet! skip_defaults_vim
 source $VIMRUNTIME/defaults.vim
 
-" Bootstrap vim-pathogen plugin management
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 
 colorscheme darcula
 
-" Useful options. Type :help <option> for more on any of the following
 set novb
 set noerrorbells
 set bs=2
@@ -17,12 +14,11 @@ set hlsearch
 set showmode
 set showmatch
 set laststatus=2
-set expandtab    "}
-set tabstop=4    "} *The* way to do 4-space tabs.
-set shiftwidth=4 "}
+set expandtab
+set tabstop=4
+set shiftwidth=4
 set smartindent
-set list                     "} show all whitespace
-set listchars=tab:»·,trail:· "}
+set list
+set listchars=tab:»·,trail:·
 
-" Type CTRL-N CTRL-N to switch to the previous buffer
 map  :b#<CR>
