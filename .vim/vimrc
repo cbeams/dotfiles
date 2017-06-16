@@ -38,18 +38,3 @@ hi StatusLine cterm=bold ctermfg=red ctermbg=blue
 
 " see :help folding for info on the following
 hi Folded term=standout ctermfg=5 ctermbg=0
-
-let g:vim_markdown_frontmatter = 1
-
-" Soft wrap and break on word boundaries
-set wrap
-set nolist
-set linebreak
-set breakat=\ ^I
-
-" Make movement commands work across displayed lines, not just physical lines.
-" See http://vim.wikia.com/wiki/Move_cursor_by_display_lines_when_wrapping
-nnoremap j gj
-nnoremap k gk
-vnoremap j gj
-vnoremap k gk
