@@ -1,3 +1,7 @@
+" Bootstrap vim-pathogen plugin management
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+execute pathogen#infect()
+
 " Turn on syntax highlighting
 syn on
 

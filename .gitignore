@@ -40,7 +40,6 @@ Dropbox
 .ssh
 
 # Vim
-.vim
 .viminfo
 *.swp
 
