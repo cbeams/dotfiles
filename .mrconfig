@@ -4,7 +4,7 @@ screen =
     pwd | xargs basename | xargs -Isession screen -dmS session
 
 [/Users/cbeams]
-checkout = git clone 'git@github.com:cbeams/dotfiles-new.git' '.'
+checkout = git clone 'git@github.com:cbeams/dotfiles.git' '.'
 
 [Work]
 checkout = git clone 'git@github.com:cbeams/work.git' 'Work'
