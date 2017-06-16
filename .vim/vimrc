@@ -22,7 +22,7 @@ set tabstop=4    "} *The* way to do 4-space tabs.
 set shiftwidth=4 "}
 set smartindent
 set list                     "} show all whitespace
-set listchars=tab:»·,trail:· "}
+set listchars=tab:Â»Â·,trail:Â· "}
 
 " Type CTRL-N CTRL-N to switch to the previous buffer
 map  :b#<CR>
