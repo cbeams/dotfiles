@@ -5,6 +5,8 @@ source $VIMRUNTIME/defaults.vim
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 
+colorscheme darcula
+
 " Useful options. Type :help <option> for more on any of the following
 set novb
 set noerrorbells
@@ -24,17 +26,3 @@ set listchars=tab:»·,trail:· "}
 
 " Type CTRL-N CTRL-N to switch to the previous buffer
 map  :b#<CR>
-
-" Turn comments green, rather than difficult-to-see blue
-hi Comment term=bold ctermfg=darkgreen  guifg=#80a0ff gui=bold
-hi cComment term=bold ctermfg=darkcyan  guifg=#80a0ff gui=bold
-
-" Make highly-visible any words being searched for in a file. Corresponds with
-" the use of 'set incsearch' and 'set hlsearch' below
-hi Search  ctermbg=3 ctermfg=0 term=reverse
-
-" Determines the look of the status line at bottom
-hi StatusLine cterm=bold ctermfg=red ctermbg=blue
-
-" see :help folding for info on the following
-hi Folded term=standout ctermfg=5 ctermbg=0
