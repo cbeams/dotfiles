@@ -2,5 +2,5 @@
 
 set -x
 
-brew list | tee $(dirname $0)/formulae
-brew cask list | tee $(dirname $0)/casks
+/usr/local/bin/brew list | tee $(dirname $0)/formulae
+/usr/local/bin/brew cask list | tee $(dirname $0)/casks
