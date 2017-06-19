@@ -5,3 +5,5 @@ goyo.vim
 darcula
 tabular
 vim-commentary
+vim-fugitive
+vim-rhubarb
