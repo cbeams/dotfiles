@@ -39,8 +39,9 @@ Dropbox
 # ssh
 .ssh
 
-# Vim (see also .vim/.gitignore)
+# Vim (see .gitignore and .mrconfig in .vim/bundle)
 .viminfo
+.vim/.netrwhist
 *.swp
 
 # wget
