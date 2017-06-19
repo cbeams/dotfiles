@@ -13,3 +13,6 @@ checkout = git clone 'https://github.com/junegunn/goyo.vim' 'goyo.vim'
 
 [darcula]
 checkout = git clone 'git://github.com/blueshirts/darcula.git' 'darcula'
+
+[tabular]
+checkout = git clone 'git://github.com/godlygeek/tabular.git' 'tabular'
