@@ -22,3 +22,5 @@ set list
 set listchars=tab:»·,trail:·
 
 map  :b#<CR>
+
+autocmd BufWritePost ~/Work/journal/*.md execute '!git add % && git commit -m %:t'
