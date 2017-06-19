@@ -1,1 +1,1 @@
-@hourly ~/.brew/export
+@hourly ~/.brew/export > /dev/null
