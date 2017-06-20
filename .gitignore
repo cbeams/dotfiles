@@ -29,6 +29,9 @@ Dropbox
 # Less
 .lesshst
 
+# mail
+mbox
+
 # Ruby
 .bundle
 .gem
