@@ -10,6 +10,7 @@ set -x
 brew update
 
 brew install $(cat .brew/formulae)
+brew tap caskroom/versions
 brew cask install $(cat .brew/casks)
 
 brew cleanup
