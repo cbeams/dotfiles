@@ -28,3 +28,6 @@ checkout = git clone 'git://github.com/tpope/vim-rhubarb.git' 'vim-rhubarb'
 
 [nerdtree]
 checkout = git clone 'https://github.com/scrooloose/nerdtree.git' 'nerdtree'
+
+[vim-crunch]
+checkout = git clone 'https://github.com/arecarn/vim-crunch' 'vim-crunch'

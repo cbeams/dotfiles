@@ -7,4 +7,5 @@ tabular
 vim-commentary
 vim-fugitive
 vim-rhubarb
+vim-crunch
 nerdtree
