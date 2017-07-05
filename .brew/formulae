@@ -12,6 +12,7 @@ httpie
 hub
 isl
 jq
+kotlin
 libmpc
 libyaml
 mpfr
@@ -20,6 +21,7 @@ oniguruma
 openssl
 openssl@1.1
 perl
+pigz
 python
 python3
 readline
